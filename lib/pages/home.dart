@@ -60,7 +60,7 @@ class Home extends StatelessWidget {
 
 statusBarPadding(Constant constant) {
   return Platform.isIOS
-      ? 44
+      ? 44.0
       : Platform.isAndroid
           ? constant.statusBarHeight / 2
           : 0;
